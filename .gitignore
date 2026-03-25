@@ -1,0 +1,22 @@
+# --- Python Specific ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+porsche_env/
+venv/
+.env
+
+# --- Streamlit Configuration ---
+# Store your DB credentials here, but NEVER push to GitHub
+.streamlit/secrets.toml
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project Artifacts ---
+# These are generated outputs, not source code
+*.html
+*.csv
+scripts/__pycache__/
